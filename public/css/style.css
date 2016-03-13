@@ -1,0 +1,102 @@
+/*GENERAL SETTINGS*/
+
+html, body, {
+    height: 100%
+}
+
+body > .body_container{
+    min-height: 100%;
+    margin-bottom: 50px;
+}
+
+.btn-primary{
+    background-color: #026DFF;
+}
+
+/*Header.php*/
+
+.navbar-default{
+    background-color: white;
+    border-bottom: 1px solid #10BCE8;
+    color: #026DFF;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+
+.navbar-default .navbar-brand{
+    color: #026DFF;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: #10E87A;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > .active > a{
+    color: #026DFF;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .active > a:hover{
+    color: #026DFF;
+    background-color: #CBFFD2;
+}
+.navbar-default .navbar-nav > .active > a{
+    background-color: #CBFFD2;
+}
+
+.brand-image{
+    float:left;
+    position: relative;
+    bottom: 5px;
+    margin-right: 10px;
+}
+.brand-text{
+    float:left;
+}
+/*footer.php*/
+
+
+.footer_div {
+    width: 100%;
+    background-color: #0275FF;
+    position: fixed;
+    bottom: 0px;
+    z-index: 10;
+    height: 3em;
+}
+
+.created_by{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    color: white;
+    margin: auto;
+}
+
+/*index.php*/
+
+.about, .recent_posts{
+    padding: 20px;
+    border:1px solid #10BCE8;
+}
+
+.about{
+    margin-bottom: 10px;
+}
+
+.github_logo{
+     max-height: 90px;
+     clear: both;
+ }
+
+.github_logo:hover{
+    background-color: #10BCE8;
+    max-height: 90px;
+    clear: both;
+}
+
+/*Customize.php*/
+
+.forum_create_input
+{
+    margin: 10px 0;
+}

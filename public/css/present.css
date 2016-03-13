@@ -1,0 +1,11 @@
+.feature_image{
+    margin: 10px auto;
+    max-height: 226px;
+    max-width: 301px;
+}
+
+.intro{
+    border-bottom: 1px solid #CBFFD2;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
